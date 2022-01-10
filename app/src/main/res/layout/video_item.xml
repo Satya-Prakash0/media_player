@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/video_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/img_thumbnail"
+        android:layout_width="122dp"
+        android:layout_height="100dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="10dp"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cropToPadding="false"
+            android:scaleType="centerCrop"
+            android:verticalScrollbarPosition="defaultPosition"
+            app:srcCompat="@drawable/ic_launcher_background" />
+
+        <TextView
+            android:id="@+id/video_duration"
+            android:layout_width="69dp"
+            android:layout_height="29dp"
+            android:layout_gravity="bottom|right"
+            android:background="#0C0C0C"
+            android:gravity="center"
+            android:text="5:06"
+            android:textColor="#F1EEEE"
+            android:verticalScrollbarPosition="defaultPosition" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/video_filename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="1dp"
+        android:layout_toEndOf="@+id/img_thumbnail"
+        android:fontFamily="sans-serif-black"
+        android:foregroundGravity="center"
+        android:gravity="center|start"
+        android:text="File Name"
+        android:textColor="#0B0A0A"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:id="@+id/menu_more"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:baselineAlignBottom="false"
+        android:cropToPadding="false"
+        android:padding="10dp"
+        app:srcCompat="@drawable/ic_baseline_more" />
+
+</RelativeLayout>
