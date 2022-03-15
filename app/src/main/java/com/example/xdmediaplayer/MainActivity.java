@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
                     e.printStackTrace();
                 } finally {
                     Intent intent = new Intent(MainActivity.this,secondAcitvity.class);
+                    finish();
                     startActivity(intent);
                 }
             }

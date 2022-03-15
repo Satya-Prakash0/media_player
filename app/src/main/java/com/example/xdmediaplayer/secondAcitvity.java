@@ -65,7 +65,7 @@ public class secondAcitvity extends AppCompatActivity {
             ActivityCompat.requestPermissions(secondAcitvity.this,new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE},REQUEST_CODE_PERMISION);
         }
         else{
-           // Toast...............................makeText(secondAcitvity.this, "Permission Granted", Toast.LENGTH_SHORT).show();
+           // Toast.makeText(secondAcitvity.this, "Permission Granted", Toast.LENGTH_SHORT).show();
             videofiles=getAllvideos(this);
             FragmentTransaction fragmentTransaction=getSupportFragmentManager().beginTransaction();
             fragmentTransaction.replace(R.id.mainFragment,new FolderFragment());
