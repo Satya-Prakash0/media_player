@@ -64,9 +64,16 @@ public class PlayerActivity extends AppCompatActivity {
                 simpleExoPlayer.setPlayWhenReady(true);
 
             }
+
     }
     public void setFullScreenMethod(){
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
+    }
+
+    @Override
+    public void onBackPressed() {
+        simpleExoPlayer.stop();
+        super.onBackPressed();
     }
 }

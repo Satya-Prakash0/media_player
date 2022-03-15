@@ -49,13 +49,13 @@
         android:textStyle="italic" />
 
     <ImageView
-        android:id="@+id/menu_more"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:id="@+id/eye_detector"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:layout_alignParentEnd="true"
         android:baselineAlignBottom="false"
         android:cropToPadding="false"
         android:padding="10dp"
-        app:srcCompat="@drawable/ic_baseline_more" />
+        app:srcCompat="@drawable/ic_baseline_remove_red_eye_24" />
 
 </RelativeLayout>

@@ -6,10 +6,12 @@
         <entry key="..\:/XDMediaPlayer/app/src/main/res/drawable/background.xml" value="0.20260416666666667" />
         <entry key="..\:/XDMediaPlayer/app/src/main/res/drawable/background2.xml" value="0.20260416666666667" />
         <entry key="..\:/XDMediaPlayer/app/src/main/res/drawable/ic_baseline_pause_circle_filled_24.xml" value="0.20260416666666667" />
+        <entry key="..\:/XDMediaPlayer/app/src/main/res/drawable/ic_baseline_remove_red_eye_24.xml" value="0.20260416666666667" />
         <entry key="..\:/XDMediaPlayer/app/src/main/res/drawable/ic_filter.xml" value="0.1984375" />
         <entry key="..\:/XDMediaPlayer/app/src/main/res/drawable/ic_folder.xml" value="0.20260416666666667" />
         <entry key="..\:/XDMediaPlayer/app/src/main/res/drawable/nav_background.xml" value="0.20260416666666667" />
         <entry key="..\:/XDMediaPlayer/app/src/main/res/drawable/state_for_nav.xml" value="0.1984375" />
+        <entry key="..\:/XDMediaPlayer/app/src/main/res/layout/activity_look_atme.xml" value="0.18645833333333334" />
         <entry key="..\:/XDMediaPlayer/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/XDMediaPlayer/app/src/main/res/layout/activity_player.xml" value="0.18229166666666666" />
         <entry key="..\:/XDMediaPlayer/app/src/main/res/layout/activity_second_acitvity.xml" value="0.22" />
@@ -18,7 +20,7 @@
         <entry key="..\:/XDMediaPlayer/app/src/main/res/layout/folder_item.xml" value="0.18645833333333334" />
         <entry key="..\:/XDMediaPlayer/app/src/main/res/layout/fragment_files.xml" value="0.18229166666666666" />
         <entry key="..\:/XDMediaPlayer/app/src/main/res/layout/fragment_folder.xml" value="0.2" />
-        <entry key="..\:/XDMediaPlayer/app/src/main/res/layout/video_item.xml" value="0.22" />
+        <entry key="..\:/XDMediaPlayer/app/src/main/res/layout/video_item.xml" value="0.25" />
         <entry key="..\:/XDMediaPlayer/app/src/main/res/layout/xxx.xml" value="0.18645833333333334" />
         <entry key="..\:/XDMediaPlayer/app/src/main/res/menu/bottom_nav_menu.xml" value="0.18229166666666666" />
         <entry key="..\:/XDMediaPlayer/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1984375" />

@@ -46,6 +46,15 @@ public class videoAdapter extends RecyclerView.Adapter<videoAdapter.MyViewHolder
                 mContext.startActivity(intent);
             }
         });
+        holder.eye_detector.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent =new Intent(mContext,lookAtme.class);
+                intent.putExtra("position",position);
+                intent.putExtra("sender","filesIsSending");
+                mContext.startActivity(intent);
+            }
+        });
     }
 
     @Override
@@ -54,12 +63,13 @@ public class videoAdapter extends RecyclerView.Adapter<videoAdapter.MyViewHolder
     }
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
-        ImageView thumbnail,menu_more;
+        ImageView thumbnail,eye_detector;
         TextView video_duration,video_filename;
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
             thumbnail=itemView.findViewById(R.id.thumbnail);
-            menu_more=itemView.findViewById(R.id.menu_more);
+            //menu_more=itemView.findViewById(R.id.menu_more);
+            eye_detector=itemView.findViewById(R.id.eye_detector);
             video_duration=itemView.findViewById(R.id.video_duration);
             video_filename=itemView.findViewById(R.id.video_filename);
         }

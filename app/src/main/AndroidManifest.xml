@@ -3,6 +3,7 @@
     package="com.example.xdmediaplayer">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA"/>
 
     <application
         android:allowBackup="true"
@@ -12,6 +13,9 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/Theme.XDMediaPlayer">
+        <activity
+            android:name=".lookAtme"
+            android:exported="false" />
         <activity
             android:name=".VideoFolderActivity"
             android:exported="false" />
