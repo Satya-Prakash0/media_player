@@ -1,5 +1,5 @@
 # media_player
-<i>Video player app that can play the video's that are present in the storage of the users device.</i>
+<i>A video player that can play the video file of all  the formats by fetching the video's from the user's device and has the one of the advance feature that can play the video when the user is active while playing the video, the video gets paused when it does not detect the users face.</br>It contain the eye detection system which can detect the eye of an user.  </i>
 # Screenshot
 <table>
   <tr>
@@ -11,4 +11,4 @@
  <img src="https://user-images.githubusercontent.com/83579946/150929252-2ad29970-0264-484f-ad83-f5899288720d.jpg" height="300">
  
 # App Link
-<i><b>https://drive.google.com/file/d/1zlh06h-iYIGA-aAtX17g3AvYya0SIYs_/view?usp=drivesdk</b></i>
+<i><b>https://drive.google.com/file/d/11Tj88qsGTjuzvNmqsIywI6NQav_Zmncr/view?usp=drivesdk</b></i>
